@@ -1,0 +1,61 @@
+/*  EXAM BANK SEARCH ENGINE (EBSE) - CSS for admin.php
+ *
+ *  @AUTHOR:    BINGHUAN W LI <lbinghuan[at]outlook.com>
+ *  @DATE:      JULY 09, 2022
+ *
+ *  @github:    https://github.com/binghuan-li/Exam-Bank-Search-Engine
+ *
+ */
+
+@charset "ISO-8859-1";
+
+body {
+  font-family: Arial, sans-serif;
+  width: 70%;
+  padding: 30px;
+  font-size:16px;
+  /* border: 1px solid gray; */
+}
+
+button {
+  background-color: #003E74 ;
+  border: none;
+  color: white;
+  padding: 4px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #555;
+  color: white;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 8px;
+}
+
+aside {
+    width: 40%;
+    padding: .5rem;
+    margin-left: .5rem;
+    float: right;
+    font-style: italic;
+    color: #29627e;
+    border: 1.5px solid #29627e;
+}
+
+.module{
+	  border: 1px solid gray;
+	  padding-left: 10px;
+}
+
+

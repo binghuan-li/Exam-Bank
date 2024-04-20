@@ -1,0 +1,49 @@
+/*  EXAM BANK SEARCH ENGINE (EBSE) - CSS for maintenance display
+ *
+ *  @AUTHOR:    BINGHUAN W LI <lbinghuan[at]outlook.com>
+ *  @DATE:      JULY 09, 2022
+ *
+ *  @github:    https://github.com/binghuan-li/Exam-Bank-Search-Engine
+ *
+ */
+
+@charset "ISO-8859-1";
+body{
+    padding: 30px;
+    color:#003E74 ;
+    font-family: Arial, sans-serif;
+}
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 4px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button5 {
+    background-color: #003E74 ;
+    color: white;
+}
+
+.button5:hover {
+    background-color: #555;
+    color: white;
+}    
+
+.info{
+    border: 1px solid gray;
+    width: 45%;
+    padding: 10px;
+    font-family: Palatino;
+    font-style: italic;
+    color: black;
+    font-size: 15px;
+}
